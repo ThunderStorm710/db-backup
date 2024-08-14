@@ -1,0 +1,2 @@
+0 3 * * * /usr/local/bin/python /usr/local/bin/backup.py >> /var/log/backup_cron.log 2>&1
+0 14 * * * /usr/local/bin/python /usr/local/bin/backup.py >> /var/log/backup_cron.log 2>&1
